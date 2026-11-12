@@ -23,3 +23,12 @@ test('Mantém ingredientes confirmados e contactos da marca correta',async()=>{
   assert.ok(html.includes('245955304558'));assert.ok(html.includes('nhaguinendade@yahoo.com'));
   assert.ok(!html.includes('frutaslegumes-gb.com'));assert.ok(!html.includes('245955882000'));
 });
+
+test('A apresentação não inclui funções nem textos de venda',async()=>{
+  const html=await readFile(new URL('index.html',root),'utf8');
+  const app=await readFile(new URL('app.js',root),'utf8');
+  assert.doesNotMatch(html,/data-add|open-request|request-dialog|whatsapp-order|order-note|encomenda|pagamento|preços|revender/i);
+  assert.doesNotMatch(app,/selection|addProduct|renderRequest|orderMessage|whatsapp-order/);
+  assert.ok(html.includes('Pesquisar produtos'));
+  assert.ok(html.includes('id="product-dialog"'));
+});

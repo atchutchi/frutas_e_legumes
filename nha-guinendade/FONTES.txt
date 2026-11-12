@@ -16,6 +16,6 @@ Fotografias: bolachas, pasta de caju, fónio, kamoka, tchacri, farinha de cabace
 
 Ilustrações: os derivados de assets_v02 e das frentes v14 são identificados como ilustrações no catálogo e nos detalhes. A imagem principal é uma composição ilustrativa já existente do caju com maracujá. As fotografias foram convertidas para WebP, sem alteração de pessoas, objetos, inscrições ou embalagens.
 
-Pedidos: seleção temporária em memória, sem conta, pagamento, base de dados ou persistência. O botão prepara uma mensagem codificada para o número confirmado +245 955 304 558. Não envia mensagens automaticamente. A composição, preço, formato e entrega são confirmados com a produtora.
+Âmbito confirmado pelo utilizador: site exclusivamente de apresentação da marca e dos produtos. Removidas todas as funções de seleção, encomenda e pagamento. Contactos gerais mantidos para informações.
 
 Direção visual: aplicação das orientações UI/UX Pro Max para hierarquia, navegação, alvos de toque, foco e redução de movimento. O utilitário search.py da instalação local não estava disponível. Aplicadas as instruções da competência e a identidade existente: verde #213d30, papel #faf8f1, terracota #a74c2d, Fraunces e DM Sans. Verificações visuais e funcionais realizadas com Playwright.
