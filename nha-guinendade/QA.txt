@@ -1,0 +1,11 @@
+Verificação local de 12 de novembro de 2026
+
+Build concluído com Node.js, sem dependências de produção. Três testes automáticos passaram: cobertura das 19 referências, disponibilidade das imagens e HTML estático, ingredientes e contactos da marca correta.
+
+Playwright: pesquisa combinada com filtros, pesquisa sem acentos, estado vazio, reposição, adição sem duplicados, remoção, pedido vazio, mensagem de WhatsApp codificada, composição confirmada do caju com malagueta, foco no diálogo, fecho com Escape, ligação direta a produto e botão voltar do navegador.
+
+Verificação responsiva a 320, 390, 768, 1024 e 1440 píxeis, sem transbordo horizontal. Menu móvel verificado. Todas as imagens carregaram. Nenhum erro JavaScript. Movimento reduzido respeitado. Página de privacidade acessível. Os 19 produtos e os contactos continuam disponíveis sem JavaScript.
+
+Capturas e relatório detalhado na pasta de trabalho, output/playwright. A revisão visual incluiu a página inicial, catálogo e pedido em computador e telemóvel.
+
+A verificação do WhatsApp inspeciona o destino e a mensagem preparada. Não envia mensagens nem confirma encomendas. Preços, stock, composição completa e condições de fornecimento não são inferidos pelos testes.

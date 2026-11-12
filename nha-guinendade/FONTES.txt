@@ -1,0 +1,21 @@
+Nha Guinendade. Revisão de 12 de novembro de 2026.
+
+Âmbito: apenas a pasta nha-guinendade do repositório atchutchi/frutas_e_legumes. O projeto Next.js Frutas e Legumes na raiz é independente.
+
+Identidade: logótipo aprovado em output/logo_aprovado_trancas_20261103/Nha_Guinendade_Aprovado_Trancas_Harmonizadas_300ppp.png. Derivado WebP redimensionado sem reconstrução do desenho. História e contactos cruzados com Green Plant Nature Business Brochure.pdf, build_flyer_proposta_01.py e o site existente.
+
+Catálogo de 19 referências: os 11 produtos de build_labels.py e build_flyer_proposta_01.py, três referências adicionais das etiquetas v14 (caju natural, malagueta e fónio), farinha de cabaceira, kamoka e tchacri das fotografias em assets_flyer, chá de moringa de source_0_26_X61.jpg e caju tostado da etiqueta Trabalho/WhatsApp Image 2026-11-03 at 20.23.20.jpeg.
+
+A bolacha antiga com a designação baobá e farinha de polpa de caju foi consolidada na referência recente Bolacha de cabaceira com gengibre. A correspondência é sustentada pelo conteúdo.json e Fontes_e_Dados.txt das etiquetas v14. A composição completa continua por confirmar e não é apresentada como confirmada.
+
+O ficheiro chamado fundo_milho-nha_guinendadi.jpg mostra uma embalagem identificada como fónio. Foi associado ao fónio pré-cozido, sem criar um produto adicional de milho a partir do nome do ficheiro.
+
+Os ingredientes do caju natural e com malagueta provêm de output/etiquetas_template_referencia_v14/conteudo.json. Os restantes produtos têm descrições limitadas ao que consta dos seus nomes e materiais. Não foram publicadas tabelas nutricionais, garantias de certificação biológica, benefícios médicos, stocks, preços, prazos de entrega ou validade de lotes.
+
+Fotografias: bolachas, pasta de caju, fónio, kamoka, tchacri, farinha de cabaceira e moringa provêm de assets_flyer. A foto de caju embalado source_1_1_X7.jpg é usada para o caju tostado como referência de apresentação. A fotografia da fundadora é source_0_25_X60.jpg. A imagem de produção é Fotos/WhatsApp Image 2026-09-10 at 11.15.25 (2).jpeg. As fotografias são de arquivo e não comprovam o stock ou os lotes atualmente disponíveis.
+
+Ilustrações: os derivados de assets_v02 e das frentes v14 são identificados como ilustrações no catálogo e nos detalhes. A imagem principal é uma composição ilustrativa já existente do caju com maracujá. As fotografias foram convertidas para WebP, sem alteração de pessoas, objetos, inscrições ou embalagens.
+
+Pedidos: seleção temporária em memória, sem conta, pagamento, base de dados ou persistência. O botão prepara uma mensagem codificada para o número confirmado +245 955 304 558. Não envia mensagens automaticamente. A composição, preço, formato e entrega são confirmados com a produtora.
+
+Direção visual: aplicação das orientações UI/UX Pro Max para hierarquia, navegação, alvos de toque, foco e redução de movimento. O utilitário search.py da instalação local não estava disponível. Aplicadas as instruções da competência e a identidade existente: verde #213d30, papel #faf8f1, terracota #a74c2d, Fraunces e DM Sans. Verificações visuais e funcionais realizadas com Playwright.
