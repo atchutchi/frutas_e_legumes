@@ -2,8 +2,10 @@ Verificação da revisão institucional de 12 de novembro de 2026
 
 Âmbito confirmado pelo utilizador: apresentação da marca e dos produtos, sem funções de venda.
 
-Executado o código de geração do catálogo num ambiente JavaScript: 19 referências mantidas. Validada a sintaxe de app.js e products.mjs. Verificada a ausência de seleção de produtos, pedidos, encomendas, preços, pagamentos e revenda no HTML gerado. Verificada a remoção dos handlers correspondentes em app.js.
+Build concluído e quatro testes automáticos aprovados. O catálogo conserva as 19 referências, as imagens e os contactos corretos. O teste adicional confirma a ausência de seleção de produtos, pedidos, encomendas, preços e pagamentos.
 
-A publicação na Vercel executa o build, os testes do catálogo e uma verificação de sintaxe de app.js. O teste adicional impede a publicação de markup e funções de encomenda.
+Playwright na versão de apresentação: pesquisa combinada com filtros, pesquisa sem acentos, estado vazio, reposição, detalhes de produto, foco no botão de fecho, Escape, ligação direta a produto e botão voltar do navegador. Confirmada a ausência de botões de adicionar, painel de pedido e ligação de finalização.
 
-O terminal e o runtime Node locais ficaram indisponíveis nesta revisão. As verificações Playwright da versão anterior não constituem uma nova validação desta revisão. A verificação pública desta revisão deve confirmar os filtros, a pesquisa, as fichas de produtos, os contactos informativos e a ausência de elementos de venda.
+Verificação responsiva a 320, 390, 768, 1024 e 1440 píxeis, sem transbordo horizontal. Menu móvel verificado. Todas as imagens carregaram. Nenhum erro JavaScript. Movimento reduzido respeitado. Página de privacidade acessível. Os 19 produtos e os contactos continuam disponíveis sem JavaScript.
+
+Capturas e relatórios na pasta de trabalho, output/playwright, com prefixo showcase. Nenhuma mensagem foi enviada aos contactos da marca.
